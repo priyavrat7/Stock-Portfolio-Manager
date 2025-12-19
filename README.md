@@ -116,5 +116,5 @@ See [docs/_TROUBLESHOOTING_GUIDE.md](docs/_TROUBLESHOOTING_GUIDE.md) for help.
 
 ---
 
-**Built with JavaFX | McGIll University Theme**
+**Built with JavaFX | McGill University Theme**
 
