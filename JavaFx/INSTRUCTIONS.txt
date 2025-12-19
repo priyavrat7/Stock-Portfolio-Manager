@@ -1,0 +1,15 @@
+STEPS TO FIX THE APPLICATION:
+
+1. In IntelliJ IDEA:
+   - Right-click on pom.xml
+   - Select: Maven → Reload Project
+   - Wait for dependencies to download (check bottom status bar)
+
+2. Go to Run → Edit Configurations
+   - Select "JavaFx Tutorial" configuration
+   - REMOVE all VM options (clear the field completely)
+   - Click OK
+
+3. Click Run
+
+The application should now start without JavaFX errors!

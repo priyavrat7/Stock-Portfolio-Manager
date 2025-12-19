@@ -1,0 +1,67 @@
+/* ========================================
+   Common Utilities and Shared Styles
+   ======================================== */
+
+/* ========================================
+   Text Fields
+   ======================================== */
+.text-field {
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 3px;
+    -fx-padding: 8px;
+    -fx-background-color: mcgill-white;
+    -fx-max-width: 200;
+    -fx-pref-height: 32;
+}
+
+.text-field:focused {
+    -fx-border-color: mcgill-red;
+    -fx-border-width: 2px;
+}
+
+.text-field:error {
+    -fx-border-color: #D32F2F;
+}
+
+/* ========================================
+   Labels
+   ======================================== */
+.label {
+    -fx-text-fill: #333333;
+}
+
+.label.bold {
+    -fx-font-weight: bold;
+}
+
+/* ========================================
+   Layouts
+   ======================================== */
+.grid-pane {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.vbox {
+    -fx-spacing: 20px;
+}
+
+.hbox {
+    -fx-spacing: 15px;
+}
+
+/* ========================================
+   Alerts and Dialogs
+   ======================================== */
+.alert {
+    -fx-background-color: mcgill-white;
+}
+
+.alert .header-panel {
+    -fx-background-color: mcgill-red;
+}
+
+.alert .header-panel .label {
+    -fx-text-fill: mcgill-white;
+}
+

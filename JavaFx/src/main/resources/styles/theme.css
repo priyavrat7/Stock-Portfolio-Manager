@@ -1,0 +1,144 @@
+/* ========================================
+   McGill University Theme
+   Global Colors and Base Styles
+   ======================================== */
+
+/* Color Palette (iOS‑inspired, professional) */
+.root {
+    mcgill-primary: #0A84FF;         /* iOS blue */
+    mcgill-primary-dark: #0060DF;
+    mcgill-success: #16A34A;         /* green */
+    mcgill-danger: #EF4444;          /* red */
+    mcgill-warning: #F59E0B;
+    mcgill-white: #FFFFFF;
+    mcgill-black: #1A1A1A;
+    mcgill-gray-50: #F9FAFB;         /* background */
+    mcgill-gray-100: #F3F4F6;        /* cards/headers */
+    mcgill-gray-300: #D1D5DB;        /* borders */
+    mcgill-gray-600: #4B5563;        /* secondary text */
+}
+
+/* Global Root Styles */
+.root {
+    -fx-background-color: mcgill-white;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 12pt;
+}
+
+/* ========================================
+   Titles and Headers
+   ======================================== */
+.mcgill-title {
+    -fx-text-fill: mcgill-primary;
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold;
+}
+
+.mcgill-subtitle {
+    -fx-text-fill: mcgill-gray-600;
+    -fx-font-size: 14pt;
+}
+
+.mcgill-section-title {
+    -fx-text-fill: mcgill-primary;
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+/* ========================================
+   Buttons - Base Styles
+   ======================================== */
+
+/* Primary Button (Blue) */
+.mcgill-button {
+    -fx-background-color: mcgill-primary;
+    -fx-text-fill: mcgill-white;
+    -fx-font-size: 12pt;
+    -fx-font-weight: normal;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+    -fx-min-width: 150;
+    -fx-pref-height: 40;
+}
+
+.mcgill-button:hover {
+    -fx-background-color: mcgill-primary-dark;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 8, 0, 0, 3);
+}
+
+.mcgill-button:armed {
+    -fx-background-color: mcgill-primary-dark;
+}
+
+/* Secondary Button (White with Red Border) */
+.mcgill-button-secondary {
+    -fx-background-color: mcgill-white;
+    -fx-text-fill: mcgill-primary;
+    -fx-border-color: mcgill-primary;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 12pt;
+    -fx-cursor: hand;
+}
+
+.mcgill-button-secondary:hover {
+    -fx-background-color: mcgill-gray-50;
+}
+
+/* Delete Button (Red) */
+.mcgill-button-delete {
+    -fx-background-color: mcgill-danger;
+    -fx-text-fill: mcgill-white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 12pt;
+    -fx-cursor: hand;
+    -fx-min-width: 150;
+    -fx-pref-height: 40;
+}
+
+.mcgill-button-delete:hover {
+    -fx-background-color: #DC2626;
+}
+
+/* Exit/Back Button */
+.mcgill-button-back {
+    -fx-background-color: mcgill-gray-100;
+    -fx-text-fill: mcgill-black;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 12pt;
+    -fx-cursor: hand;
+}
+
+.mcgill-button-back:hover {
+    -fx-background-color: mcgill-gray-300;
+}
+
+/* ======== New: Chips / Badges ======== */
+.chip {
+    -fx-background-color: mcgill-gray-100;
+    -fx-text-fill: mcgill-black;
+    -fx-padding: 6px 10px;
+    -fx-background-radius: 12px;
+    -fx-font-size: 11pt;
+}
+.chip-success { -fx-background-color: rgba(22,163,74,0.12); -fx-text-fill: mcgill-success; }
+.chip-danger  { -fx-background-color: rgba(239,68,68,0.12); -fx-text-fill: mcgill-danger; }
+
+/* ======== New: Stats Bar & Cards ======== */
+.stats-bar {
+    -fx-background-color: mcgill-gray-100;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px 20px;
+}
+.card {
+    -fx-background-color: mcgill-white;
+    -fx-background-radius: 12px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 8, 0, 0, 2);
+}
+

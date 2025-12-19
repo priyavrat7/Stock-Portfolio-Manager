@@ -1,0 +1,115 @@
+/* ========================================
+   McGill University Theme
+   Global Colors and Base Styles
+   ======================================== */
+
+/* Color Palette */
+.root {
+    mcgill-red: #ED1B2E;
+    mcgill-red-dark: #CC1625;
+    mcgill-red-light: #FFF5F5;
+    mcgill-white: #FFFFFF;
+    mcgill-black: #1A1A1A;
+    mcgill-gray: #F5F5F5;
+}
+
+/* Global Root Styles */
+.root {
+    -fx-background-color: mcgill-white;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 12pt;
+}
+
+/* ========================================
+   Titles and Headers
+   ======================================== */
+.mcgill-title {
+    -fx-text-fill: mcgill-red;
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold;
+}
+
+.mcgill-subtitle {
+    -fx-text-fill: #666666;
+    -fx-font-size: 14pt;
+}
+
+.mcgill-section-title {
+    -fx-text-fill: mcgill-red;
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+/* ========================================
+   Buttons - Base Styles
+   ======================================== */
+
+/* Primary McGill Red Button */
+.mcgill-button {
+    -fx-background-color: mcgill-red;
+    -fx-text-fill: mcgill-white;
+    -fx-font-size: 12pt;
+    -fx-font-weight: normal;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+    -fx-min-width: 150;
+    -fx-pref-height: 40;
+}
+
+.mcgill-button:hover {
+    -fx-background-color: mcgill-red-dark;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 8, 0, 0, 3);
+}
+
+.mcgill-button:armed {
+    -fx-background-color: mcgill-red-dark;
+}
+
+/* Secondary Button (White with Red Border) */
+.mcgill-button-secondary {
+    -fx-background-color: mcgill-white;
+    -fx-text-fill: mcgill-red;
+    -fx-border-color: mcgill-red;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 12pt;
+    -fx-cursor: hand;
+}
+
+.mcgill-button-secondary:hover {
+    -fx-background-color: mcgill-red-light;
+}
+
+/* Delete Button (Red) */
+.mcgill-button-delete {
+    -fx-background-color: #D32F2F;
+    -fx-text-fill: mcgill-white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 12pt;
+    -fx-cursor: hand;
+    -fx-min-width: 150;
+    -fx-pref-height: 40;
+}
+
+.mcgill-button-delete:hover {
+    -fx-background-color: #B71C1C;
+}
+
+/* Exit/Back Button */
+.mcgill-button-back {
+    -fx-background-color: #757575;
+    -fx-text-fill: mcgill-white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 12pt;
+    -fx-cursor: hand;
+}
+
+.mcgill-button-back:hover {
+    -fx-background-color: #616161;
+}
+

@@ -1,0 +1,78 @@
+/* ========================================
+   Portfolio Module Styles
+   Stock Market Portfolio Table
+   ======================================== */
+
+/* Table View Styling */
+.table-view {
+    -fx-background-color: mcgill-white;
+    -fx-border-color: #EDEDED;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header {
+    -fx-background-color: mcgill-red;
+    -fx-text-fill: mcgill-white;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-padding: 12px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: mcgill-red;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: mcgill-white;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #FAFAFA;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: mcgill-red-light;
+    -fx-text-background-color: mcgill-red;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #FFE8E8;
+}
+
+/* Table cell alignment */
+.table-view .table-cell {
+    -fx-alignment: CENTER-LEFT;
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER-LEFT;
+}
+
+/* Stock Market Cell Colors for P/L */
+.table-view .table-row-cell .text {
+    -fx-fill: mcgill-black;
+}
+
+/* Green text for positive P/L */
+.table-view .positive-pl .text {
+    -fx-fill: #2E7D32;
+    -fx-font-weight: bold;
+}
+
+/* Red text for negative P/L */
+.table-view .negative-pl .text {
+    -fx-fill: #D32F2F;
+    -fx-font-weight: bold;
+}
+
+/* ========================================
+   Portfolio Form Styling
+   ======================================== */
+/* Form container with light gray background */
+.form-container {
+    -fx-background-color: #F9F9F9;
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+}
+

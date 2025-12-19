@@ -1,0 +1,57 @@
+/* ========================================
+   Calculator Module Styles
+   ======================================== */
+
+/* Calculator Operation Buttons */
+.mcgill-op-button {
+    -fx-min-width: 60px;
+    -fx-min-height: 40px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: mcgill-white;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.mcgill-op-button.add {
+    -fx-background-color: #4CAF50;
+}
+
+.mcgill-op-button.add:hover {
+    -fx-background-color: #45a049;
+}
+
+.mcgill-op-button.subtract {
+    -fx-background-color: #FF9800;
+}
+
+.mcgill-op-button.subtract:hover {
+    -fx-background-color: #F57C00;
+}
+
+.mcgill-op-button.multiply {
+    -fx-background-color: #2196F3;
+}
+
+.mcgill-op-button.multiply:hover {
+    -fx-background-color: #1976D2;
+}
+
+.mcgill-op-button.divide {
+    -fx-background-color: #F44336;
+}
+
+.mcgill-op-button.divide:hover {
+    -fx-background-color: #D32F2F;
+}
+
+/* ========================================
+   Calculator Result Display
+   ======================================== */
+.result-label {
+    -fx-text-fill: #2196F3;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+}
+

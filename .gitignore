@@ -1,0 +1,28 @@
+### OS / editor junk ###
+.DS_Store
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+# (We don't need the exceptions !**/src/main/**/out/ etc. — those are rarely useful for normal projects)
+
+### Eclipse (not needed if we're only using IntelliJ, but harmless) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### Build artifacts ###
+target/
+build/
+*.class
+*.log
